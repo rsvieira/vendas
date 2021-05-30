@@ -3,6 +3,10 @@ package br.com.devrsvieira;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author devrsvieira
+ */
+
 @SpringBootApplication
 public class VendasApplication {
 
