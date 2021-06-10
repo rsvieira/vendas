@@ -1,17 +1,15 @@
 package br.com.devrsvieira.configuration;
 
+import br.com.devrsvieira.annotation.Dev;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Profile;
 
 /**
  * @author devrsvieira
  */
 
-@Configuration
-@Profile("dev")
-public class VendasDevConfigutarion {
+@Dev
+public class VendasDevConfiguration {
 
     @Bean
     public CommandLineRunner executar(){
